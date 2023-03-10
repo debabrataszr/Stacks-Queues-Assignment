@@ -18,8 +18,11 @@ public class MyStack<K> {
         return myLinkedList.popFirstNode();
     }
 
+    public INode dequeue() {
+        return myLinkedList.popFirstNode();
+    }
     public void printStack() {
         myLinkedList.printMyNodes();
     }
-}
 
+}
